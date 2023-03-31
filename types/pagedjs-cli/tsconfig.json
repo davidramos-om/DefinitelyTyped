@@ -2,7 +2,8 @@
     "compilerOptions": {
         "module": "commonjs",
         "lib": [
-            "es6"
+            "es6",
+            "dom"
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,
@@ -13,15 +14,11 @@
             "../"
         ],
         "types": [],
-        "paths": {
-            "@delowar/*": ["delowar__*"]
-        },
         "noEmit": true,
-        "forceConsistentCasingInFileNames": true,
-        "jsx": "react"
+        "forceConsistentCasingInFileNames": true
     },
     "files": [
         "index.d.ts",
-        "delowar__react-circle-progressbar-tests.tsx"
+        "pagedjs-cli-tests.ts"
     ]
 }
